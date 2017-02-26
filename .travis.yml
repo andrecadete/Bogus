@@ -5,4 +5,4 @@ install: composer install
 
 script:
     - vendor/bin/phpunit
-    - vendor/bin/phpstan
+    - vendor/bin/phpstan analyse src tests --level=4
